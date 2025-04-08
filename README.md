@@ -36,7 +36,7 @@ Perhaps most importantly, I've learned to embrace the iterative nature of develo
 - [Bootstrap](https://getbootstrap.com/) - For responsive grid and components
 
 ### Fonts
-- [Google Fonts](https://fonts.google.com/) - Roboto and Montserrat
+- [Google Fonts](https://fonts.google.com/) - Oranienbaum
 
 ### Images & Graphics
 -All images were taken, and edited by me (n0tryan!)
