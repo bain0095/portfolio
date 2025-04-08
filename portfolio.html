@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Boostrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts - Oranienbaum -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<!-- start of accessibility -->
+<body itemscope itemtype="https://schema.org/CollectionPage">
+  <meta itemprop="name" content="NTRP Music Portfolio">
+  <meta itemprop="description" content="Collection of music projects and releases by NTRP">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <!-- end of accessibility -->
+  
+  <!-- Start Of Navigation -->
+  <header role="banner">
+    <nav class="navbar navbar-expand-lg bg-light border-bottom border-body" role="navigation" aria-label="Main Navigation">
+      <div class="container-fluid d-flex justify-content-between">
+        <a class="navbar-brand" href="#">NTRP</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./portfolio.html" aria-current="page">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./links.html">Links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End of Navigation -->
+  
+  <!-- start of main content -->
+  <main id="main-content" role="main">
+    <section class="container my-5" itemprop="mainEntity" itemscope itemtype="https://schema.org/MusicAlbum">
+      <meta itemprop="name" content="Music Projects">
+      <meta itemprop="albumReleaseType" content="album">
+      <div itemprop="byArtist" itemscope itemtype="https://schema.org/MusicGroup">
+        <meta itemprop="name" content="N0TRyan">
+      </div>
+      <h1 class="visually-hidden">Music Portfolio</h1>
+      
+      <!-- Recent Releases Row -->
+      <div class="row mb-5">
+        <div class="col-md-4 d-flex align-items-center">
+          <div class="card w-100 border border-secondary bg-light">
+            <div class="card-body text-center py-5">
+              <h2 class="card-title fs-md-large">My Recent Releases</h2>
+              <p class="card-text">Check out my latest music releases.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div id="recentReleasesCarousel" class="carousel slide" data-bs-ride="carousel" aria-label="Recent releases carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#recentReleasesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Through Her Eyes release"></button>
+              <button type="button" data-bs-target="#recentReleasesCarousel" data-bs-slide-to="1" aria-label="Maybe I'm Tired release"></button>
+              <button type="button" data-bs-target="#recentReleasesCarousel" data-bs-slide-to="2" aria-label="Love/Hate release"></button>
+            </div>
+            <div class="carousel-inner h-100">
+              <div class="carousel-item active h-100" itemprop="track" itemscope itemtype="https://schema.org/MusicRecording">
+                <meta itemprop="name" content="Through Her Eyes">
+                <meta itemprop="datePublished" content="2025-02-14">
+                <div class="card border border-secondary h-100 bg-light">
+                  <div class="card-body text-center d-flex flex-column justify-content-center py-5">
+                    <h3 class="card-title fs-md-large">Through Her Eyes</h3>
+                    <p class="card-text">Released February 14th, 2025</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item h-100" itemprop="track" itemscope itemtype="https://schema.org/MusicRecording">
+                <meta itemprop="name" content="Maybe I'm Tired">
+                <meta itemprop="description" content="Coming Soon">
+                <div class="card border border-secondary h-100 bg-light">
+                  <div class="card-body text-center d-flex flex-column justify-content-center py-5">
+                    <h3 class="card-title fs-md-large">Maybe I'm Tired</h3>
+                    <p class="card-text">Coming Soon!</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item h-100" itemprop="track" itemscope itemtype="https://schema.org/MusicRecording">
+                <meta itemprop="name" content="Love/Hate">
+                <meta itemprop="datePublished" content="2024-08-24">
+                <div class="card border border-secondary h-100 bg-light">
+                  <div class="card-body text-center d-flex flex-column justify-content-center py-5">
+                    <h3 class="card-title fs-md-large">Love/Hate</h3>
+                    <p class="card-text">Released Summer 2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#recentReleasesCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recentReleasesCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- first portfolio card -->
+      <div class="row mb-5" aria-label="Portfolio items">
+        <div class="col-md-6 mb-4">
+          <article class="card h-100 border border-secondary bg-light">
+            <div class="row g-0 h-100">
+              <div class="col-md-5">
+                <picture>
+                  <source media="(min-width: 1440px)" srcset="./images/the%20aa%20v2_xl.png">
+                  <source media="(min-width: 768px)" srcset="./images/the%20aa%20v2_lg.png">
+                  <source media="(min-width: 375px)" srcset="./images/the%20aa%20v2_md.png">
+                  <img src="./images/the%20aa%20v2.png" class="img-fluid rounded-start h-100 object-fit-cover" alt="Through Her Eyes album cover">
+                </picture>
+              </div>
+              <div class="col-md-7">
+                <div class="card-body d-flex flex-column justify-content-center h-100">
+                  <h3 class="card-title fs-md-large">Through Her Eyes</h3>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        
+        <!-- Second Portfolio Item Card -->
+        <div class="col-md-6 mb-4">
+          <article class="card h-100 border border-secondary bg-light">
+            <div class="row g-0 h-100">
+              <div class="col-md-5">
+                <picture>
+                  <source media="(min-width: 1440px)" srcset="./images/lh_xl.jpg">
+                  <source media="(min-width: 768px)" srcset="./images/lh_lg.jpg">
+                  <source media="(min-width: 375px)" srcset="./images/lh_md.jpg">
+                  <img src="./images/lh.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Love/Hate album cover">
+                </picture>
+              </div>
+              <div class="col-md-7">
+                <div class="card-body d-flex flex-column justify-content-center h-100">
+                  <h3 class="card-title fs-md-large">Love/Hate</h3>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Featured Works Row -->
+      <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel" aria-label="Featured projects carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Featured Projects"></button>
+          <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="1" aria-label="Feature Project 2"></button>
+          <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="2" aria-label="Feature Project 3"></button>
+          <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="3" aria-label="Feature Project 4"></button>
+          <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="4" aria-label="Feature Project 5"></button>
+          <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="5" aria-label="Feature Project 6"></button>
+          <button type="button" data-bs-target="#featureCarousel" data-bs-slide-to="6" aria-label="Feature Project 7"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <article class="card border border-secondary bg-light" style="min-height: 375px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-6">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="./images/release_xl.jpg">
+                    <source media="(min-width: 768px)" srcset="./images/release_lg.jpg">
+                    <source media="(min-width: 375px)" srcset="./images/release_md.jpg">
+                    <img src="./images/release.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Release Album Art">
+                  </picture>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body d-flex flex-column justify-content-center h-100 p-5">
+                    <h3 class="card-title fs-1">Release</h3>
+                    <p class="card-text fs-4">This was my first ever release!</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item">
+            <article class="card border border-secondary bg-light" style="min-height: 375px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-6">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="./images/aiarihe_xl.jpg">
+                    <source media="(min-width: 768px)" srcset="./images/aiarihe_lg.jpg">
+                    <source media="(min-width: 375px)" srcset="./images/aiarihe_md.jpg">
+                    <img src="./images/aiarihe.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="aiarihe album art">
+                  </picture>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body d-flex flex-column justify-content-center h-100 p-5">
+                    <h3 class="card-title fs-1">As I Am Reflected In Her Eyes</h3>
+                    <p class="card-text fs-4">This has now been removed from online services, but the art is too good to not show</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item">
+            <article class="card border border-secondary bg-light" style="min-height: 375px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-6">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="./images/asii_xl.jpg">
+                    <source media="(min-width: 768px)" srcset="./images/asii_lg.jpg">
+                    <source media="(min-width: 375px)" srcset="./images/asii_md.jpg">
+                    <img src="./images/asii.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="asii album art">
+                  </picture>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body d-flex flex-column justify-content-center h-100 p-5">
+                    <h3 class="card-title fs-1">And So It Is?</h3>
+                    <p class="card-text fs-4">This is another release that was removed online, but the art once again was too good to not show</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item">
+            <article class="card border border-secondary bg-light" style="min-height: 375px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-6">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="./images/lh_xl.jpg">
+                    <source media="(min-width: 768px)" srcset="./images/lh_lg.jpg">
+                    <source media="(min-width: 375px)" srcset="./images/lh_md.jpg">
+                    <img src="./images/lh.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Love/Hate album art">
+                  </picture>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body d-flex flex-column justify-content-center h-100 p-5">
+                    <h3 class="card-title fs-1">Love/Hate</h3>
+                    <p class="card-text fs-4">This was my first album release!</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item">
+            <article class="card border border-secondary bg-light" style="min-height: 375px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-6">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="./images/wdwdn_xl.jpg">
+                    <source media="(min-width: 768px)" srcset="./images/wdwdn_lg.jpg">
+                    <source media="(min-width: 375px)" srcset="./images/wdwdn_md.jpg">
+                    <img src="./images/wdwdn.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="What Do We Do Now? album art">
+                  </picture>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body d-flex flex-column justify-content-center h-100 p-5">
+                    <h3 class="card-title fs-1">What Do We Do Now?</h3>
+                    <p class="card-text fs-4">This was one of my recently released EPs</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item">
+            <article class="card border border-secondary bg-light" style="min-height: 375px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-6">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="./images/scarlettt_xl.jpg">
+                    <source media="(min-width: 768px)" srcset="./images/scarlettt_lg.jpg">
+                    <source media="(min-width: 375px)" srcset="./images/scarlettt_md.jpg">
+                    <img src="./images/scarlettt.jpg" class="img-fluid rounded-start h-100 object-fit-cover" alt="Scarlettt album art">
+                  </picture>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body d-flex flex-column justify-content-center h-100 p-5">
+                    <h3 class="card-title fs-1">Scarlettt</h3>
+                    <p class="card-text fs-4">This was the release before my first album!</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel-item">
+            <article class="card border border-secondary bg-light" style="min-height: 375px;">
+              <div class="row g-0 h-100">
+                <div class="col-md-6">
+                  <picture>
+                    <source media="(min-width: 1440px)" srcset="./images/THE%20aa%20v2_xl.png">
+                    <source media="(min-width: 768px)" srcset="./images/THE%20aa%20v2_lg.png">
+                    <source media="(min-width: 375px)" srcset="./images/THE%20aa%20v2_md.png">
+                    <img src="./images/THE%20aa%20v2.png" class="img-fluid rounded-start h-100 object-fit-cover" alt="Through Her Eyes album art">
+                  </picture>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body d-flex flex-column justify-content-center h-100 p-5">
+                    <h3 class="card-title fs-1">Through Her Eyes</h3>
+                    <p class="card-text fs-4">My most recent release!</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#featureCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#featureCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </main>
+  <!-- end of main content -->
+  <!-- Start of Footer -->
+  <footer role="contentinfo">
+    <div class="bg-light d-flex justify-content-center border-top border-body pt-4 pb-2 ">
+      <p>&copy; 2025 Copyright - NTRP, All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
