@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #4da6ff; 
-    --primary-dark: #0066cc; 
+    --primary-color: #acd5fd; 
+    --primary-dark: #247dd6; 
     --text-dark: #333333; 
     --bs-light-rgb: #E6F2FF;
     --body-font: 'Oranienbaum', serif;
@@ -118,7 +118,7 @@ button:focus,
 input:focus,
 textarea:focus,
 select:focus {
-    outline: 2px solid var(--primary-color);
+    outline: 2px solid var(--bs-light-rgb);
     outline-offset: 2px;
 }
 
@@ -154,4 +154,15 @@ select:focus {
 h1, h2, h3, h4, h5, h6, .navbar-brand {
     font-family: var(--body-font);
     font-weight: 600;
+}
+
+/* nav bar things */
+.bg-primary-custom {
+    background-color: var(--primary-color);
+    color: black; 
+}
+
+.bg-primary-custom .navbar-brand,
+.bg-primary-custom .nav-link {
+    color: black;
 }
