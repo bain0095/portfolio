@@ -2,7 +2,7 @@
     --primary-color: #4da6ff; 
     --primary-dark: #0066cc; 
     --text-dark: #333333; 
-    --bs-light-rgb: 230, 242, 255;
+    --bs-light-rgb: #E6F2FF;
     --body-font: 'Oranienbaum', serif;
 }
 
@@ -103,7 +103,6 @@ img {
 
 .form-control:focus {
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 0.25rem rgba(77, 166, 255, 0.25);
 }
 
 .icon-spacing {
